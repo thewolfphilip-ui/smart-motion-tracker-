@@ -7,6 +7,7 @@ from pathlib import Path
 DATA_PATH = Path(__file__).parent / "gesture_data.csv"
 MODEL_PATH = Path(__file__).parent / "hand_landmarker.task"
 
+#chose names for your custom gestures
 GESTURES = {
     "1": "NICE",
     "2": "PEACE",
